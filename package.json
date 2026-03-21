@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jorgenhanisch/mitt-nettsted/issues"
   },
-  "homepage": "https://github.com/jorgenhanisch/mitt-nettsted#readme"
+  "homepage": "https://github.com/jorgenhanisch/mitt-nettsted#readme",
+  "dependencies": {
+    "@sanity/client": "^7.20.0"
+  }
 }

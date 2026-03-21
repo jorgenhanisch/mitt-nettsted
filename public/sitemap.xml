@@ -11,6 +11,15 @@
     <loc>http://localhost:1314/posts/</loc>
     <lastmod>2026-03-20T20:18:28+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1314/posts/kontakt/</loc>
+    <lastmod>2026-03-17T18:36:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/posts/arbeider/</loc>
+    <lastmod>2026-03-17T18:33:10+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/posts/kompetanse/</loc>
+    <lastmod>2026-03-17T18:32:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1314/categories/</loc>
   </url><url>
     <loc>http://localhost:1314/tags/</loc>
