@@ -2,25 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1314/mitt-nettsted/posts/mitt-forste-innlegg/</loc>
+    <loc>http://localhost:1314/mitt-nettsted/mitt-forste-innlegg/</loc>
     <lastmod>2026-03-20T20:18:28+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1314/mitt-nettsted/</loc>
     <lastmod>2026-03-20T20:18:28+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/mitt-nettsted/posts/</loc>
-    <lastmod>2026-03-20T20:18:28+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1314/mitt-nettsted/posts/kontakt/</loc>
+    <loc>http://localhost:1314/mitt-nettsted/kontakt/</loc>
     <lastmod>2026-03-17T18:36:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/mitt-nettsted/posts/arbeider/</loc>
+    <loc>http://localhost:1314/mitt-nettsted/arbeider/</loc>
     <lastmod>2026-03-17T18:33:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/mitt-nettsted/posts/kompetanse/</loc>
+    <loc>http://localhost:1314/mitt-nettsted/kompetanse/</loc>
     <lastmod>2026-03-17T18:32:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1314/mitt-nettsted/posts/web-salg-og-markedsforing-pa-nett/</loc>
+    <loc>http://localhost:1314/mitt-nettsted/web-salg-og-markedsforing-pa-nett/</loc>
     <lastmod>2026-03-17T18:29:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1314/mitt-nettsted/categories/</loc>

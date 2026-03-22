@@ -9,9 +9,9 @@
 <body>
     <header>
         <nav>
-            <a href="{{ "/" | relURL }}">Hjem</a>
-            {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ "" | relURL }}">Hjem</a>
+            {{ range site.Menus.main }}
+            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
             {{ end }}
         </nav>
     </header>
