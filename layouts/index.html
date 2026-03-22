@@ -1,14 +1,10 @@
 {{ define "main" }}
-<section class="hero">
-    <h1>{{ .Site.Title }}</h1>
+{{ range where .Site.RegularPages "File.BaseFileName" "web-salg-og-markedsforing-pa-nett" }}
+<section class="frontpage">
+    <h1>{{ .Title }}</h1>
+    <div class="content">
+        {{ .Content }}
+    </div>
 </section>
-
-<section class="posts">
-    {{ range .Site.RegularPages }}
-    <article>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <p>{{ .Summary }}</p>
-    </article>
-    {{ end }}
-</section>
+{{ end }}
 {{ end }}

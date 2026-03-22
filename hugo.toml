@@ -1,3 +1,17 @@
 baseURL = 'https://jorgenhanisch.github.io/mitt-nettsted/'
 locale = 'en-us'
 title = 'My New Hugo Project'
+[[menus.main]]
+name = "Arbeider"
+url = "/mitt-nettsted/posts/arbeider/"
+weight = 1
+
+[[menus.main]]
+name = "Kompetanse"
+url = "/mitt-nettsted/posts/kompetanse/"
+weight = 2
+
+[[menus.main]]
+name = "Kontakt"
+url = "/mitt-nettsted/posts/kontakt/"
+weight = 3
