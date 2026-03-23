@@ -26,7 +26,7 @@ async function fetchPosts() {
   
   console.log(`Fant ${posts.length} innlegg`);
 
-  const dir = "content/posts";
+  const dir = "content";
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
   posts.forEach((post) => {

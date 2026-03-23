@@ -1,5 +1,5 @@
 +++
-title = "Web, salg og markedsføring på nett"
+title = "Web salg og markedsføring på nett"
 date = "2026-03-17T18:29:00.000Z"
 draft = false
 +++
