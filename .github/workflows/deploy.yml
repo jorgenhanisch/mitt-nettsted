@@ -33,6 +33,7 @@ jobs:
       - name: Hent innhold fra Sanity
         run: |
           npm install
+          rm -rf content/posts/
           node scripts/fetch-content.js
 
       - name: Bygg Hugo
