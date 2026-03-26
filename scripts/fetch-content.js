@@ -6,7 +6,8 @@ const client = createClient({
   projectId: "gukxnj2e",
   dataset: "production",
   apiVersion: "2024-01-01",
-  useCdn: true,
+  useCdn: false,
+  perspective: "published",
 });
 
 function blocksToText(blocks) {
@@ -22,7 +23,7 @@ function blocksToText(blocks) {
 async function fetchPosts() {
   console.log("Henter innlegg...");
   
-  const posts = await client.fetch(`*[_type == "post" && defined(slug.current) && !(_id in path("drafts.**"))] | order(_createdAt desc)`);
+  const posts = await client.fetch(`*[_type == "post" && defined(slug.current)] | order(_createdAt desc)`);
 
   console.log(`Fant ${posts.length} innlegg`);
 
