@@ -22,8 +22,8 @@ function blocksToText(blocks) {
 async function fetchPosts() {
   console.log("Henter innlegg...");
   
-  const posts = await client.fetch(`*[_type == "post" && defined(slug.current)] | order(_createdAt desc)`);
-  
+  const posts = await client.fetch(`*[_type == "post" && defined(slug.current) && !(_id in path("drafts.**"))] | order(_createdAt desc)`);
+
   console.log(`Fant ${posts.length} innlegg`);
 
   const dir = "content";
