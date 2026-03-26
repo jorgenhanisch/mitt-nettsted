@@ -30,15 +30,17 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Hent innhold fra Sanity
+        - name: Hent innhold fra Sanity
         run: |
           npm install
-          rm -rf content/posts/
+          # Denne linjen sletter nå ALT i content-mappen før nye data hentes
+          rm -rf content/*.md 
           node scripts/fetch-content.js
 
       - name: Bygg Hugo
-        run: hugo --minify
-
+        # Her legger vi til --cleanDestinationDir
+        run: hugo --minify --gc --cleanDestinationDir
+  
       - name: Deploy til GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
