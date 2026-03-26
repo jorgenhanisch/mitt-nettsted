@@ -1,10 +1,10 @@
 {{ define "main" }}
-{{ range where .Site.RegularPages "File.BaseFileName" "web-salg-og-markedsforing-pa-nett" }}
-<section class="frontpage">
-    <h1>{{ .Title }}</h1>
-    <div class="content">
-        {{ .Content }}
-    </div>
-</section>
-{{ end }}
+  {{ with .Site.GetPage "web-salg-og-markedsforing-pa-nett.md" }}
+    <section class="frontpage">
+        <h1>{{ .Title }}</h1>
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </section>
+  {{ end }}
 {{ end }}
