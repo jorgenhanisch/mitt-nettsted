@@ -1,29 +1,18 @@
 baseURL = 'https://jorgenhanisch.github.io/mitt-nettsted/'
 locale = 'en-us'
 title = 'My New Hugo Project'
+
 [[menus.main]]
 name = "Arbeider"
-<<<<<<< HEAD
 url = "/arbeider/"
-=======
-url = "/posts/arbeider/"
->>>>>>> 5c291d6 (Oppdatert fetch-script i Codespaces)
 weight = 1
 
 [[menus.main]]
 name = "Kompetanse"
-<<<<<<< HEAD
 url = "/kompetanse/"
-=======
-url = "/posts/kompetanse/"
->>>>>>> 5c291d6 (Oppdatert fetch-script i Codespaces)
 weight = 2
 
 [[menus.main]]
 name = "Kontakt"
-<<<<<<< HEAD
 url = "/kontakt/"
-=======
-url = "/posts/kontakt/"
->>>>>>> 5c291d6 (Oppdatert fetch-script i Codespaces)
 weight = 3
