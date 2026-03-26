@@ -30,12 +30,12 @@ jobs:
         with:
           node-version: "20"
 
-        - name: Hent innhold fra Sanity
+      - name: Hent innhold fra Sanity
         run: |
           npm install
-          # Denne linjen sletter nå ALT i content-mappen før nye data hentes
-          rm -rf content/*.md 
+          rm -rf content/*.md
           node scripts/fetch-content.js
+
 
       - name: Bygg Hugo
         # Her legger vi til --cleanDestinationDir
